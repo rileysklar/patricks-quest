@@ -14,7 +14,7 @@ export default function WebQuest({ character }) {
   return (
     <Layout>
       <div className="flex flex-col gap-riley p-8 rounded-md glass-morphism">
-        <h1 className="flex justify-center text-4xl font-bold">
+        <h1 className="flex justify-center text-2xl sm:text-3xl md:text-4xl font-bold">
           Patrick's Beer Quest
         </h1>
 
