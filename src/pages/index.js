@@ -26,7 +26,7 @@ export default function WebQuest({ character }) {
 
 export async function getStaticProps() {
   // Fetch data from the local API route
-  const response = await fetch("http://localhost:3000/api/quest"); // Update with your actual API route
+  const response = await fetch(`${process.env.HOSTNAME}/api/quest`); // Update with your actual API route
 
   const character = await response.json();
 
