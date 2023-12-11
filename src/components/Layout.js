@@ -7,7 +7,7 @@ export default function Layout({ children }) {
   };
 
   return (
-    <div className="flex flex-col items-center justify-between gap-riley min-h-screen">
+    <div className="main-layout flex flex-col items-center justify-between gap-riley min-h-screen">
       <header className="h-[6em] w-full flex ">
         <Image
           className="p-4"
